@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto", sans-serif;
+
+}
+
+
+body {
+  background-color: #27476E;
+  color: #EAF8BF;
+
+}
+
+.boton {
+
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #001D4A;
+  cursor: pointer;
+
+}
+
+.incrementar{
+  background-color: #ECA400;
+}
+
+.reducir{
+  background-color: #006992;
+}
