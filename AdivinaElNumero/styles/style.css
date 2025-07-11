@@ -1,0 +1,54 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #EAC8A6;
+  color: #3D74B6;
+}
+
+input {
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  width: auto;
+  height: 30px;
+  background-color: #FBF5DE;
+  font-size: 20px;
+  color: #DC3C22;
+}
+
+input:focus {
+  outline-color: #DC3C22;
+  outline-style: groove;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder{
+  color: #DC3C22;
+}
+
+.btn {
+  height: 30px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #DC3C22;
+  color: #FBF5DE;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #FBF5DE;
+  color: #DC3C22;
+  border: none;
+}
