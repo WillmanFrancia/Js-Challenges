@@ -1,0 +1,86 @@
+* {
+  font-family: "Cal Sans", sans-serif;
+}
+
+body {
+  background-color: #a3dc9a;
+  text-align: center;
+  margin-top: 300px;
+}
+
+h1 {
+  color: #fff9bd;
+  font-size: 70px;
+}
+
+button {
+  width: 150px;
+  height: auto;
+  background-color: #ffd6ba;
+  font-size: 30px;
+  border-radius: 18px;
+  border-style: none;
+  color: #a3dc9a;
+}
+
+input {
+  width: 500px;
+  height: auto;
+  font-size: 30px;
+  border-style: none;
+  border-radius: 18px;
+  text-align: center;
+}
+
+/* Estilos para el input y el botón */
+#textoBusqueda,
+#botonBusqueda {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#botonBusqueda {
+  background-color: #4caf50; /* Un verde */
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#botonBusqueda:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para la galería de imágenes (el contenedor) */
+#galeriaImagenes {
+  display: grid; /* ¡Aquí usamos CSS Grid! */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Columnas responsivas */
+  gap: 15px; /* Espacio entre las imágenes */
+  width: 90%; /* Ocupa la mayor parte del ancho */
+  max-width: 1200px; /* Límite para pantallas grandes */
+  margin-top: 20px;
+}
+
+/* Estilos para cada imagen individual dentro de la galería */
+.galeria-imagen {
+  width: 100%; /* La imagen ocupa todo el ancho de su celda en la cuadrícula */
+  height: 250px; /* Altura fija para todas las imágenes (puedes ajustarlo) */
+  object-fit: cover; /* ¡Importante! Asegura que la imagen cubra el área sin deformarse */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para los mensajes de estado (carga, no resultados, error) */
+#galeriaImagenes p {
+  grid-column: 1 / -1; /* Hace que el párrafo ocupe todas las columnas de la cuadrícula */
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  padding: 20px;
+}
