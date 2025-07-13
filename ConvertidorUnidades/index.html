@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Convertidor de Unidades</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Convertidor de Unidades</h1>
+    <input
+      id="valorUsuario"
+      type="number"
+      placeholder="Ingresar valor numérico"
+    />
+    <select id="unidadOrigen">
+      <option value="metros">Metros</option>
+      <option value="kilometros">Kilometros</option>
+      <option value="millas">Millas</option>
+      <option value="centimetros">Centímetros</option>
+    </select>
+    <select id="unidadDestino">
+      <option value="kilometros">Kilometros</option>
+      <option value="millas">Millas</option>
+      <option value="centimetros">Centímetros</option>
+      <option value="metros">Metros</option>
+    </select>
+    <p id="resultadoTexto">Resultado</p>
+    <script src="./script/convertidor.js"></script>
+  </body>
+</html>
